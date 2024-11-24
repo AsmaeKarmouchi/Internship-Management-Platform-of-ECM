@@ -58,25 +58,29 @@ Internship-Management-Platform ├──
    git clone https://github.com/AsmaeKarmouchi/Internship-Management-Platform-of-ECM.git
    cd Internship-Management-Platform-of-ECM
 
-2. **creat 2 terminals:**
-# Backend
+# **creat 2 terminals:**
+2. 
+### Backend
 cd server
 npm install
+npm audit fix --force
 
-# Frontend
+### Frontend
 cd client
 npm install
+npm audit fix --force
 
-3. Configure environment variables:
-In the server folder, create a .env file with the following:
+# Configure environment variables:
+3. In the server folder, create a .env file with the following:
 - DB_USER=<your_postgresql_username>
 - DB_PASSWORD=<your_postgresql_password>
 - DB_NAME=internship_management
 - DB_HOST=localhost
 
-4. Run the application:
-# Start the backend
+# Run the application:
+4.  Start 
  ```bash
+# Start the Backend
 cd server
 npm start  
 
