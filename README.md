@@ -61,14 +61,16 @@ Internship-Management-Platform ├──
 # **creat 2 terminals:**
 2. 
 ### Backend
-cd server
-npm install
-npm audit fix --force
+ 
+- cd server
+- npm install
+- npm audit fix --force
 
 ### Frontend
-cd client
-npm install
-npm audit fix --force
+- cd client
+- npm install
+- npm audit fix --force
+
 
 # Configure environment variables:
 3. In the server folder, create a .env file with the following:
